@@ -1,0 +1,26 @@
+{
+  "name": "formkl",
+  "displayName": "formkl",
+  "description": "",
+  "version": "0.0.1",
+  "publisher": "FormKL",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "formkl",
+      "aliases": ["formkl", "formkl"],
+      "extensions": [".form"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "formkl",
+      "scopeName": "source.formkl",
+      "path": "./syntaxes/formkl.tmLanguage.json"
+    }]
+  }
+}
